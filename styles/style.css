@@ -1,0 +1,182 @@
+:root {
+  --bold-color: #212121;
+  --text-color: #757575;
+}
+
+body {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+/* -----              index           ------- */
+
+/* ----- Header ------- */
+
+.logo {
+  width: 145px;
+  height: 31px;
+
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+.navigation-list-item,
+.header-contacts-item {
+  color: var(--bold-color);
+
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.navigation-list-item:hover,
+.header-contacts-item:hover {
+  color: #2196f3;
+}
+
+/* ----- Header END ------- */
+
+/* ----- Main ------- */
+
+.header-one {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #2f303a; /* temporarily */
+}
+
+.button-order-service {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.benefits-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.benefits-list-title {
+  font-weight: 700;
+}
+
+.header-two {
+  color: var(--bold-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-person-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: var(--bold-color);
+}
+
+.team-person-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+
+/* ----- Main END ------- */
+
+/* ----- Footer ------- */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address-list-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-text {
+  color: #ffffff;
+}
+
+/* ----- Footer END ------- */
+
+/* -----              portfolio page         ------- */
+
+/* --- Filters ---- */
+
+.filters-list-item .button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* --- Filters END ---- */
+
+/* --- Gallery ---- */
+
+.gallery-list-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--bold-color);
+}
+
+.gallery-list-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
